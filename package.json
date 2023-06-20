@@ -1,0 +1,17 @@
+{
+  "name": "@migan/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
